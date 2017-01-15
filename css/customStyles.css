@@ -35,8 +35,13 @@ body {
 .phone {
 	margin-top: 3em;
     height: 267px;
+    position: relative;
 }
 
+.red-iphone {
+    position:absolute; 
+    bottom: 0;
+}
 .spacer {
 	width: 12em;
 }
@@ -57,7 +62,7 @@ nav.navbar.navbar-default {
         box-shadow: inset 0 1px 0 rgba(255,255,255,0.1);
     }
     .navbar-collapse.collapse {
-        display: none!important;
+        display: none !important;
     }
     .navbar-nav {
         float: none!important;
@@ -200,7 +205,11 @@ border-radius: 25px
     padding-right: 0;
     color: white;
 }
-
+@media screen and (max-width: 432px) {
+button.custom-buttom.pull-right {
+    margin-right: 50%;
+}
+}
 .logo {
     padding-top: 0;
     width: 100px;
@@ -246,6 +255,14 @@ border-radius: 25px
     color: #545454;
 }
 
+.txt-head2 {
+    font-size: 40px;
+    padding-bottom: 40px;
+    color: #545454;
+    padding-left: 0px;
+    margin-top: 2.625em;
+}
+
 .txt-body {
     color: #7e7e7e;
     font-size: 16px;
@@ -261,4 +278,47 @@ border-radius: 25px
 
 .padd-left {
     padding-left: 10%;
+}
+
+.border-class {
+    border-left: solid 7px #4eacdd;
+    padding-left: 16px;
+    margin-top: 32px;
+    font-style: italic;
+}
+
+.say-hello-button {
+    color: #14af8f;
+    border: solid #14af8f;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.padding-left-0 {
+    padding-left: 0px;
+}
+
+.devices {
+    margin-top: 17.813em;
+}
+
+
+
+.color-black {
+    color:black;
+    padding-bottom: 40px;
+}
+/*
+.marg-right {
+    margin-right: 191px;
+}
+*/
+.dribble-button {
+    color:#ea4c89;
+    border: solid #ea4c89;
+    border-radius: 3px;
+    margin-bottom: 20px;
+    width: 223px;
 }
