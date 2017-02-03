@@ -8,10 +8,6 @@ section {
 }
 
 /*----Head Styles----*/
-body {
-	
-
-}
 .head {
     height: 0;
 }
@@ -207,7 +203,7 @@ border-radius: 25px
 }
 @media screen and (max-width: 432px) {
 button.custom-buttom.pull-right {
-    margin-right: 50%;
+    margin-right: 25px;
 }
 }
 .logo {
@@ -321,4 +317,132 @@ button.custom-buttom.pull-right {
     border-radius: 3px;
     margin-bottom: 20px;
     width: 223px;
+}
+
+/*--- Like what you see ---*/
+
+.like-what-see {
+    height: 326px;
+    background-color: #13c3ae;
+    
+}
+
+.like-what-see-text {
+    font-size: 40px;
+    color: white;
+    font-family: 'Abel', sans-serif;
+}
+
+.beer-span {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.beer-button {
+    color: white;
+    width: 220px;
+    margin: 0 auto;
+}
+
+.all-beer-content {
+    margin-top: 102px;
+}
+
+/*--- Social Media Section ---*/
+
+#social-media {
+    height: 650px;
+    background-color: #f4f4f4;
+}
+
+.media-icon-size {
+    width: 48px;
+    height: 48px; 
+    border: solid 3px #545454;
+    border-radius: 50%;
+
+}
+
+.media-icon {
+   margin: 15px 0 0 0;
+   color: #545454;
+}
+
+.col-centered{
+    float: none;
+    margin: 0 auto;
+}
+
+.twitter-icon {
+    margin-top: 8px;
+    color: #545454;
+}
+
+.mail-icon {
+    margin-right: 3px;
+}
+
+.newsletter {
+    font-style: italic;
+    font-weight: bold;
+    font-size: 16px;
+    padding-right: 23px;
+
+}
+
+.txt-color {
+    color:#545454;
+
+}
+
+.newslet {
+    margin-top: 67px;
+}
+
+.input-styles {
+    max-width: 217px;
+    height: 43px;
+    border: none;
+    border-radius: 10px;
+    
+}
+
+.input-styles::-webkit-input-placeholder {
+color: #d6d6d6 !important;
+}
+ 
+.input-styles:-moz-placeholder {
+color: #d6d6d6 !important;  
+}
+ 
+.input-styles::-moz-placeholder { 
+color: #d6d6d6 !important;  
+}
+ 
+.input-styles:-ms-input-placeholder {  
+color: #d6d6d6 !important;  
+}
+
+.parent-input-styles {
+   
+}
+
+.padding {
+    padding-top: 10px;
+}
+
+.top-margin {
+    margin-top: 241px;
+}
+
+.max-width {
+    max-width: 324px;
+}
+
+/*--- Footer ---*/
+
+.totop {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
 }
