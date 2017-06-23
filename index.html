@@ -21,16 +21,16 @@
   </head>
   <body>
 
-    <section class="head">
+    <section id="home" class="head navbar-fixed-top">
           <nav class="container-fluid cust hide">
       <div class="row custom-menu cust-menu">
         <div>
-        <img class="close-icon" src="assets/closeIcon.png" alt=""/>
+        <img class="close-icon text-right" src="assets/closeIcon.png" alt=""/>
          <ul class="child-menu menu-custom-styles">
-        <li><a class="link-color-white" href="#"><img class="link-images" src="assets/two.png" alt=""/>Home</a></li>
-        <li><a class="link-color-white" href="#"><img class="link-images" src="assets/two.png" alt=""/>Portfolio</a></li>
-        <li><a class="link-color-white" href="#"><img class="link-images" src="assets/two.png" alt=""/>About Me</a></li>
-        <li><a class="link-color-white" href="#"><img class="link-images" src="assets/two.png" alt=""/>Drop Me A Line</a></li>
+        <li class="close-1"><a class="link-color-white" href="#top"><img class="link-images" src="assets/two.png" alt=""/>Home</a></li>
+        <li class="close-1"><a class="link-color-white" href="#longwinded"><img class="link-images" src="assets/two.png" alt=""/>Portfolio</a></li>
+        <li class="close-1"><a class="link-color-white" href="#aboutme"><img class="link-images" src="assets/two.png" alt=""/>About Me</a></li>
+        <li class="close-1"><a class="link-color-white" href="#social-media"><img class="link-images" src="assets/two.png" alt=""/>Drop Me A Line</a></li>
        
       </ul>
     </div>
@@ -60,12 +60,10 @@
       <div class="row">
         <div class="col-md-12 text-right head-text">
           <h1>Meet Perth,</h1>
-          <h2>A stupidly simple, flat PSD. Oh yeah, it's <span class="free">free</span> too!</h2>
-          
+          <h2>A stupidly simple, flat PSD. Oh yeah, it's <span class="free">free</span> too!</h2>    
         </div>
       </div>
-      <div class="row">
-        
+      <div class="row">  
         <div class="col-md-6 col-xs-6 phone">
           <picture>
           <source media="(max-width: 432px)" srcset="assets/phone2.png">
@@ -73,11 +71,10 @@
           <img src="assets/phone.png" class="red-iphone" alt="iphone">
           </picture>
         </div> 
-        <div class="col-md-6 col-xs-6 cust-button"><button type="button" class="custom-buttom pull-right">DOWNLOAD</button></div>   
-      
+        <div class="col-md-6 col-xs-6 cust-button"><button type="button" class="custom-buttom pull-right">DOWNLOAD<i class="fa fa-cloud-download main-dl-button" aria-hidden="true"></i></button></div>      
     </div>
 </section>
-<section class="longwinded">
+<section id="longwinded" class="longwinded">
     <div class="container-fluid">
       <div class="row">
         <div class="col-md-7 col-sm-7 padd-left">
@@ -89,7 +86,7 @@
             <p class="border-class">You little ripper boozer no worries she'll be right holy dooley!. Come a 
             freo also as cross as a your shout. Lets throw a khe sanh flamin dead 
             dingo's donger. Lets get some fisho with grab us a trackie dacks.</p>
-            <button type="button" class="custom-buttom say-hello-button">SAY HELLO</button>
+            <button type="button" class="custom-buttom say-hello-button">SAY HELLO<i class="fa fa-envelope main-dl-button" aria-hidden="true"></i></button>
           </div>
         </div>
         </div>
@@ -98,14 +95,13 @@
           <source media="(max-width: 767px)" srcset="assets/ipad2.png">
           <source media="(min-width: 768px)" srcset="assets/ipad.png">
           <img class="ipad" src="assets/ipad.png" srcset="assets/ipad.png" alt="ipad">
-        </picture>
+          </picture>
         </div>
       </div>
     </div>
   </section>
-  <section class="portfolio">
-    <div class="container-fluid padding-left-0">
-     
+  <section id="aboutme" class="portfolio">
+    <div class="container-fluid padding-left-0">  
       <div class="row marg-right">
          <div class="col-md-7 padding-left-0 devices"><img class="img-responsive" src="assets/devices.png" alt="devices">
       </div>
@@ -114,17 +110,16 @@
           <p class="txt-body">We're going rack off bloody she'll be right pash.<br>You 
           little ripper tucker also get a dog up ya greenie.</p>
           <div class="">
-            <button type="button" class="custom-buttom dribble-button">VIEW ON DRIBBLE</button>
+            <button type="button" class="custom-buttom dribble-button">VIEW ON DRIBBLE<i class="fa fa-lg fa-dribbble main-dribble-button"></i></button>
           </div>
       </div>
     </div>
   </section>
-
-  <section class="like-what-see">
+  <section class="like-what-see beer-bac">
     <div class="container">
         <div class="row">
           <div class="col-md-12 text-center all-beer-content"><p class="like-what-see-text">Like What You See?</p>
-            <button type="button" class="custom-buttom beer-button">BUY ME A <span class="beer-span">BEER?</span></button>
+            <button type="button" class="custom-buttom beer-button">BUY ME A <span class="beer-span">BEER?</span><i class="fa fa-beer main-dribble-button" aria-hidden="true"></i></button>
           </div>
         </div>
     </div>
@@ -134,15 +129,13 @@
         <div class="row text-center top-margin">
           <div class="col-md-4">
           </div>
-          <div class="col-md-4 max-width col-centered">
-            
+          <div class="col-md-4 max-width col-centered">         
             <div class="col-md-3 col-xs-3">
               <a href="#"><div class="media-icon-size col-centered">
               <i class="fa fa-dribbble fa-lg media-icon" aria-hidden="true"></i>
             </div>
           </a>
           </div>
-
          <div class="col-md-3 col-xs-3">
               <a href="#"><div class="media-icon-size col-centered">
               <i class="fa fa-facebook fa-lg media-icon" aria-hidden="true"></i>
@@ -160,10 +153,7 @@
               <i class="fa fa-paper-plane-o fa-lg media-icon flip mail-icon" aria-hidden="true"></i>
             </div>
           </a>
-          </div>
-            
-            
-           
+          </div>     
           </div>
           <div class="col-md-4">
           </div>
@@ -172,17 +162,27 @@
           <div class="col-md-3">
           </div>
           <div class="col-md-6 newslet">
-              <label for="news" class="col-md-6 col-sm-6 col-xs-12 text-right newsletter txt-color padding">Newsletter Subscrption
+              <label for="news" class="col-md-6 col-sm-6 text-right newsletter txt-color padding">Newsletter Subscription
               </label>
-              <div class="col-md-6 col-sm-6 col-xs-12 newsletter parent-input-styles"><input id="news" class="form-control input-styles" placeholder="Enter Email"/>
+              <div class="input-group col-md-6 col-sm-6 newsletter text-center">
+                    <input type="text" class="form-control input-styles" placeholder="Enter Email"/>
+                    <span class="input-group-btn">
+                      <button class="btn btn-secondary news-btn-styles" type="button"><i class="fa fa-envelope" aria-hidden="true"></i></button>
+                    </span>
               </div>
+            </div>
           </div>
           <div class="col-md-3">
           </div>
         </div> 
     </div>
   </section>
-
+<section>
+  <div class="col-md-12 very-bottom ">
+    <p>2013 <span>Perth.</span> Breeding pixles since the naughties.</p>
+  </div>
+</section>
+<img class="totop" src="assets\totop.png" alt="totop" />
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
@@ -190,17 +190,17 @@
      <script>
 $(document).ready(function(){
   $(".show").click(function(){
-      $(".cust").fadeIn("slow");
+      $(".cust").fadeIn("fast");
       $(".cust").removeClass("hide");
   });
 
-  $(".close-icon").click(function(){
-      $(".cust").fadeIn("slow");
+  $(".close-icon, .close-1").click(function(){
+      $(".cust").fadeIn("fast");
       $(".cust").fadeOut();
-      
   });
 });
 
+$(".totop").click(function(){
   $('body,html').animate({ scrollTop: 0}, "slow");
 })
 
