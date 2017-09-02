@@ -38,6 +38,7 @@
     </nav>
       <nav class="navbar navbar-default static posit">
   <div class="container">
+
     <!-- Brand and toggle get grouped for better mobile display -->
     <div class="navbar-header">
       <button type="button" class="navbar-toggle collapsed show">
@@ -52,7 +53,7 @@
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     
-  </div><!-- /.container-fluid -->
+  </div>
 </nav>
 </section>
 <section id="top" class="bac">
@@ -102,15 +103,21 @@
   </section>
   <section id="aboutme" class="portfolio">
     <div class="container-fluid padding-left-0">  
-      <div class="row marg-right">
-         <div class="col-md-7 padding-left-0 devices"><img class="img-responsive" src="assets/devices.png" alt="devices">
-      </div>
-          <div class="col-xs-12 col-md-5 txt-head2 text-devices">Get a Dog Up Ya'</div><p class="txt-body color-black">She'll be right paddock how lets throw a ciggies.<br> 
+      <div class="row">
+         <div class="col-md-5 col-md-push-5">
+          <div class="col-md-12 txt-head2 dog-styles">Get a Dog Up Ya'
+          
+          <p class="txt-body color-black">She'll be right paddock how lets throw a ciggies.<br> 
           She'll be right ute to built like a doovalacky.</p>
-          <p class="txt-body">We're going rack off bloody she'll be right pash.<br>You 
+          <p class="txt-body2">We're going rack off bloody she'll be right pash.<br>You 
           little ripper tucker also get a dog up ya greenie.</p>
+
           <div class="">
             <button type="button" class="custom-buttom dribble-button">VIEW ON DRIBBLE<i class="fa fa-lg fa-dribbble main-dribble-button"></i></button>
+          </div>
+          </div>
+        </div>
+          <div class="col-md-7 col-md-pull-5 padding-left-0 devices"><img class="img-responsive" src="assets/devices.png" alt="devices">
           </div>
       </div>
     </div>
@@ -198,12 +205,11 @@ $(document).ready(function(){
       $(".cust").fadeIn("fast");
       $(".cust").fadeOut();
   });
+
+  $(".totop").click(function(){
+    $('body,html').animate({ scrollTop: 0}, "slow");
+  });
 });
-
-$(".totop").click(function(){
-  $('body,html').animate({ scrollTop: 0}, "slow");
-})
-
   </script>
   </body>
   <footer>
